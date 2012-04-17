@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#191A20" >
+    
+    
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupProfil"
+        android:orientation="horizontal"
+        android:background="#191A20" > 
+        
+    <ImageView
+	 
+	 android:layout_gravity="right"
+	 
+	android:id="@+id/imageprofil"
+	 
+	android:layout_width="fill_parent"
+	android:layout_height="150dp"
+	android:src="@drawable/imageprofil"
+	
+	 android:gravity="right"
+/>
+
+    </LinearLayout>
+    
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:textSize="20dp"
+      	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/name"
+       
+        android:gravity="center" >
+       
+    </TextView>
+    
+    <!--   android:text="@string/name" -->
+     <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:textSize="20dp"
+      	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/firstname"
+        
+        android:gravity="center" >
+       
+    </TextView>
+    
+     <!--  android:text="@string/firstname" -->
+         <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:textSize="20dp"
+      	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/loginP"
+        
+        android:gravity="center" >
+       
+    </TextView>
+    
+         <!-- android:text="@string/login" -->
+         <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:textSize="20dp"
+      	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/passP"
+		android:inputType="textPassword" 
+        
+        
+        android:gravity="center" >
+       
+    </TextView>
+    
+         <!-- android:text="@string/password" -->
+          <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:textSize="20dp"
+      	android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+       android:id="@+id/mailP"
+        android:gravity="center" >
+       
+    </TextView>
+     <!--   android:text="@string/mail" -->
+          
+           <LinearLayout
+        
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupProfilMA"
+        android:orientation="horizontal"
+        android:background="#191A20" > 
+        
+      <Button
+		android:textSize="15dp"
+        android:id="@+id/buttonModifier"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:text="@string/modifier"
+        android:layout_weight="1" >
+    </Button>
+     <Button
+   
+		android:textSize="15dp"
+        android:id="@+id/buttonAvatar"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:text="@string/avatar"
+        android:layout_weight="1" >
+    </Button>
+    </LinearLayout>
+    
+    <LinearLayout
+        
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupProfilFR"
+        android:orientation="horizontal"
+        android:background="#191A20" > 
+        
+      <Button
+		android:textSize="15dp"
+        android:id="@+id/buttonFavoris"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:text="@string/favoris"
+        android:layout_weight="1" >
+    </Button>
+     <Button
+   
+		android:textSize="15dp"
+        android:id="@+id/buttonRetourPro"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:text="@string/retour"
+        android:layout_weight="1" >
+    </Button>
+    </LinearLayout>
+    
+</LinearLayout>

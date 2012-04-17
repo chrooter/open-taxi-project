@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Open Taxi</string>
+	<string name="butInscri">Créer un compte</string>
+	<string name="welcome">Bienvenue sur Open Taxi ©</string>
+	<string name="newUsersMess">S\'il s\'agit de votre première utilisation, inscrivez vous !</string>
+	<string name="mdpForg">Mot de passe oublié ?</string>
+	<string name="connex">Se connecter</string>
+	<string name="Warning">Tous les champs doivent êtres remplis</string>
+	<string name="name">Nom : </string>
+	<string name="firstname">Prenom : </string>
+	<string name="login">Login : </string>
+	<string name="password">Mot de passe :</string>
+	<string name="ok">Ok</string>
+	<string name="retour">Retour</string>
+	<string name="question">Quel est votre acteur préféré ?</string>
+	<string name="choixMode">Choisissez votre mode</string>
+	<string name="or">ou</string>
+	<string name="optionProfil">Vous pouvez également regarder et/ou modifier votre profil</string>
+	<string name="mail">Mail : </string>
+	<string name="modifier">Modifier</string>
+	<string name="avatar">Avatar</string>
+	<string name="favoris">Favoris</string>
+	<string name="UpMess">Modifier</string>
+	<string name="choiceChamp">Selectionner le champs a modifier</string>
+	<string name="instruUp">Ecrivez votre modification puis validez</string>
+	<string name="valider">Valider</string>
+	<string name="select">Selectionner</string>
+	<string name="favorisInsc">Ecrivez l\'adresse puis cliquer sur ajouter</string>
+	<string name="favorisSupp">Selectionner une adresse favorite et cliquez sur supprimer</string>
+	<string name="add">Ajouter</string>
+	<string name="sup">Supprimer</string>
+	
+<string name="ba">Blanc</string>
+<string name="be">Bleu</string>
+<string name="Re">Rouge</string>
+<string name="Gr">Vert</string>
+<string name="No">Aucun</string>
+	
+	
+	<string-array name="newCh_array">
+        <item>Nom</item>
+        <item>Prenom</item>
+        <item>Login</item>
+        <item>Mot de passe</item>
+        <item>Mail</item>
+    </string-array>
+	
+		<string-array name="listPa_array">
+        <item>Trajet 1</item>
+        <item>Trajet 2</item>
+
+        
+        
+    </string-array>
+	
+	<string-array name="listPro">
+	    
+	    <item>Aucun</item>
+	    <item>Blanc</item>
+        <item>Bleu</item>
+	    <item>Rouge</item>
+	    <item>Vert</item>
+	    
+	    </string-array>
+</resources>
+

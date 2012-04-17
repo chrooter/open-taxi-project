@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="#191A20"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+ <TextView
+        
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="15dp"
+		android:textSize="20dp"
+        android:text="@string/choixMode" 
+        android:gravity="center">
+        
+    </TextView>
+
+ <Button
+     android:id="@+id/buttonConducteur"
+     android:layout_width="204dp"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="30dp"
+     android:layout_marginTop="10dp"
+     android:text="Conducteur"
+     android:textSize="15dp" />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="0dp"
+     android:gravity="center"
+     android:text="@string/or"
+     android:textSize="20dp" />
+
+ <Button
+     android:id="@+id/buttonSansVoiture"
+     android:layout_width="200dp"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="30dp"
+     android:layout_marginTop="20dp"
+     android:text="Sans Voiture"
+     android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/optionProfil"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonProfil"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Profil"
+            android:textSize="15dp" />
+
+    </LinearLayout>
