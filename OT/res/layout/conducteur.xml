@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#191A20" >
+    
+        
+    <TextView
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:textSize="20dp"
+      	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:text="Destination : "
+        android:gravity="center" >
+    </TextView>
+
+    
+          <Spinner android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:prompt="@string/select"
+           />
+         
+          
+          
+    <EditText
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+       	android:layout_marginBottom="40dp"
+		android:textSize="15dp"
+        android:layout_width="270dp"
+		android:layout_height="wrap_content"
+		android:hint="Adresse" 
+        android:id="@+id/destina"
+         >
+
+        <requestFocus />
+        </EditText>
+        
+        <EditText
+        android:layout_gravity="right"
+       	android:layout_marginBottom="30dp"
+		android:textSize="15dp"
+        android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:hint="Nombres de place(s)" 
+        android:id="@+id/nbplaces"
+        android:inputType="number" 
+         >
+
+        <requestFocus />
+        </EditText>
+        
+            <EditText
+        android:layout_gravity="right"
+       	android:layout_marginBottom="30dp"
+		android:textSize="15dp"
+        android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:hint="Prix (€)" 
+        android:id="@+id/prix"
+        android:inputType="number" 
+         >
+
+        <requestFocus />
+        </EditText>
+        
+            
+                 <LinearLayout
+        
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupProfilUP"
+        android:orientation="horizontal"
+        android:background="#191A20" > 
+        
+      <Button
+		android:textSize="15dp"
+        android:id="@+id/buttonValiderCond"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:text="@string/valider"
+        android:layout_weight="1" >
+    </Button>
+     <Button
+   
+		android:textSize="15dp"
+        android:id="@+id/buttonRetourCond"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:text="@string/retour"
+        android:layout_weight="1" >
+    </Button>
+    </LinearLayout>
+
+         
+
+</LinearLayout>
